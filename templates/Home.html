@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> TheTechnicalNomi </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/static/img/boy.png" rel="icon">
+  <link href="/static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  
+  
+  <header id="header" class="fixed-top text-uppercase p-4">
+    <div class="container d-flex align-items-center justify-content-between">
+    
+
+      <h1 class="logo"><a href="">TheTechnicalNomi</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#Resume">Resume</a></li>
+          <li><a class="nav-link scrollto " href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contactus</a></li>
+          <li><a class="nav-link scrollto" href="contribute">contribute</a></li>
+
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+        {% if messages %} 
+  {% for message in messages %} 
+  <div class="alert alert-{{ message.tags }} alert-dismissible fade show my-0" role="alert"> 
+  <strong>{{message}}</strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+{% endfor %}
+{% endif %}
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style=" background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+  position: relative;background-image: url(/static/img/Home.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <p class="display-6 color-d">Hello, world!</p>
+                    <li><a href="/static/pdf/resume.pdf" download>
+  <img src="static/img/downloadcv.jpg" alt="W3Schools" width="80" height="40 "></a></li>
+          <div class="social">
+                  <a href="https://twitter.com/MOHAMMA08146282"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/taukir.kadari"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/psychonomi/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/mohd-taukir-ansari-734008179/"><i class="bi bi-linkedin"></i></a>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+      <!-- ======= About Section ======= -->
+  <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="/static/img/Taukir.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Md Taukir Ansari</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Python developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>Taukir016@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>+917238818646</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>Python</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Html</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>CSS</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Hello I’m Md Taukir Ansari. I’m the web developer and student.
+                       I’ve created over a dozen projects designed to improve my skills and achieve my goals to be a professionals.
+                        I see myself as a relentless problem-solver, and I’m always looking for a new challenge."
+                    </p>
+                    <p class="lead">
+                      I am pursue my B-Tech from RKGIT College Ghaziabad in stream of Electronics and Communication Engineering affiliated by Dr.APJ Abdul Kalam Technical University.
+         
+                    </p>
+                    <p class="lead">
+                      I was created a project based on Python Tkinter module with my sql database and I was created Datasciene 
+                      project using python Numpy,Pandas and Matplotlib Modules.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Resume Section ======= -->
+
+  <section id="Resume" class="about-mf sect-pt4 route">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title" style=" text-align: center; padding-bottom: 40px;">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title"style=" font-size: 26px;font-weight: 700;margin-top: 20px;margin-bottom: 20px;color: #45505b;">Sumary</h3>
+            <div class="resume-item pb-0"style="padding: 0 0 20px 20px;margin-top: -2px;border-left: 2px solid #0563bb;position: relative;">
+              <h4>Md Taukir Ansari</h4>
+              <p><em>Seeking a position with an organization where I can contribute my skill for organization's  success and synchronize with 
+                new technology with new technology while being resourceful,innovative and flexible .</em></p>
+              <ul>
+                <li>New Delhi, INDIA</li>
+                <li>+917238818646</li>
+                <li>Taukir016@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title" style="font-size: 26px; font-weight: 700;margin-top: 20px;margin-bottom: 20px;color: #45505b;">Education</h3>
+            <div class="resume-item"style="padding: 0 0 20px 20px;margin-top: -2px;border-left: 2px solid #0563bb;position: relative;">
+              <h4>Bachelor of Technology  (B-TECH)</h4>
+              <h5>2018 - 2022</h5>
+              <p><em>Raj Kumar Goel Institute Of Technology, Ghaziabad, INDIA</em></p>
+              <p>I pursue Btech Course in the stream of Electronics and Communication with aggregate cgpa 7.3</p>
+            </div>
+            <div class="resume-item"style="padding: 0 0 20px 20px;margin-top: -2px;border-left: 2px solid #0563bb;position: relative;">
+              <h4>Intermediate (PUC)</h4>
+              <h5>2016 - 2018</h5>
+              <p><em>PT.JNS Intermediate College, Renukoot, INDIA</em></p>
+              <p>I completed my Higher secondary class with 73 Percentage in subject PCM. </p>
+            </div>
+            <div class="resume-item"style="padding: 0 0 20px 20px;margin-top: -2px;border-left: 2px solid #0563bb;position: relative;">
+              <h4>Higher (10th)</h4>
+              <h5>2014 - 2016</h5>
+              <p><em>Aditya Birla Intermediate College, Renukoot, INDIA</em></p>
+              <p>I scored 70 Percentage in my Board class . </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title"style=" font-size: 26px;font-weight: 700;margin-top: 20px;margin-bottom: 20px;color: #45505b;">Professional Experience</h3>
+            <div class="resume-item"style="padding: 0 0 20px 20px;margin-top: -2px;border-left: 2px solid #0563bb;position: relative;">
+              <h4>Campus Ambassador</h4>
+              <h5>2021 May - 2021 July</h5>
+              <p><em>Alpine Technologies, Kanpur, INDIA </em></p>
+              <ul>
+                <li>To spread awareness about their product or service among the students' community.</li>
+                <li>To nurture a student community with the knowledge of their technology or services. </li>
+                <li>To be the face and voice of the company in his/her campus representing the company's mission.</li>
+                <li>I got Best intern certificate with overall 4000 rs stipend per month .</li>
+              </ul>
+            </div>
+            <h3 class="resume-title" style="font-size: 26px; font-weight: 700;margin-top: 20px;margin-bottom: 20px;color: #45505b;">Awards & Certifications</h3>
+            <div class="resume-item"style="padding: 0 0 20px 20px;margin-top: -2px;border-left: 2px solid #0563bb;position: relative;">
+              <ul>
+                <h6><li>Tathastu Week of Code" organized by TwoWaits</li></h6>
+                <h6><li>Machine Learning Building Blocks: Services and Terminology (AWS)</li></h6>
+                <h6><li>Introduction to Programming with MATLAB(Venderbilt University)</li></h6>
+                <h6><li>The Fundamental of Digial Marketing(Google)</li></h6>
+                <h6><li>JavaScript Essential Training (Linkedin Learning)</li></h6>
+                <h6><li>National Engineering Olympiad 3.0 (NEO Foundation)</li></h6>
+                <h6><li>Python 3.4.3 training organized at R. D. Engineering College</li></h6>
+                <h6><li>Emotional Intelligence and Teamwork (Udemy)</li></h6>
+                <h6><li>Code The Code Coding Compitition Organized by INMANTEC Institution</li></h6>
+                <h6><li>Paper Presentaion on Impact of COVID-19 on Various Areas of Global Economy, Science & Humanities, gondwana university, Maharastra</li></h6>
+              </ul>
+</div>
+</section><!-- End Resume Section -->
+<!-- ======= Services Section ======= -->
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Full Stack Development</h2>
+                <p class="s-description text-center">
+                  I can build software applications including front end , back-end devlopment using Python django module, database, APIs, server and version
+                  Control using Git.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Development</h2>
+                <p class="s-description text-center">
+                  Provide you best of project for front end devlopment using Html5 ,CSS3 ,JavaScript and bootstrap 
+                  to  website visitors can easily interact with the page
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Data Science</h2>
+                <p class="s-description text-center">
+                  Analyze, process, and model data then interpret the results to create actionable
+                   plans for companies and other organizations..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Database Engineer</h2>
+                <p class="s-description text-center">
+                Organize the collection, processing, and storing of data from different sources,
+                 database solutions such as Cassandra and Bigtable using Mysql and Postgresql.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Machine Learning</h2>
+                <p class="s-description text-center">
+                  Internet search engines, email filters to sort out spam,  
+                  banking software to detect unusual transactions, 
+                  and lots of apps on our phones such as voice recognition..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Marketing Services</h2>
+                <p class="s-description text-center">
+                  Determining the viability of a new service or product through 
+                  research conducted directly with potential customers, surveys,
+                   focus groups, and customer observation..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+<section id="contact" class="services-mf pt-5 route">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>New Delhi, INDIA, 110001</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>Taukir016@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 7238818646</p>
+              </div>
+              <div class="social">
+                  <a href="https://twitter.com/MOHAMMA08146282"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/taukir.kadari"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/psychonomi/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/mohd-taukir-ansari-734008179/"><i class="bi bi-linkedin"></i></a>
+      
+          </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
+          <form method="POST" action="/contactus" class="php-email-form">
+            {% csrf_token %}
+              <div class="row">
+                <div class="col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter you name here">
+        </div>
+        <div class="form-group form-group mt-3">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email here"
+        <div class="form-group mt-3">
+            <label for="desc">Tell me about what you want to contact....</label>
+            <textarea class="form-control" id="desc" row="4"  name="desc"placeholder="Ask to me"></textarea>
+        </div>
+        <button class="btn btn-primary  mt-3 mt-md-3" type="Submit">Submit</button>
+        
+    </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+</main><!-- End #main -->
+  <!-- Vendor JS Files -->
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/vendor/purecounter/purecounter.js"></script>
+  <script src="/static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>
